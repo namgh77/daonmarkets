@@ -1,0 +1,131 @@
+.auth-clerk-card {
+  width: 100%;
+  margin-top: 27px;
+  padding: 2px 0 0;
+}
+.auth-clerk-card .cl-rootBox {
+  width: 100%;
+}
+.auth-clerk-card .cl-card {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.auth-clerk-card .cl-headerTitle {
+  font-family: inherit;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+.auth-clerk-card .cl-headerSubtitle {
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.auth-clerk-card .cl-formFieldLabel {
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.auth-clerk-card .cl-formFieldInput {
+  height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: rgba(251, 255, 253, 0.6);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 13px;
+  box-shadow: none;
+}
+.auth-clerk-card .cl-formFieldInput:focus {
+  border-color: var(--aqua-dark);
+  box-shadow: 0 0 0 3px rgba(13, 157, 138, 0.11);
+}
+.auth-clerk-card .cl-formButtonPrimary {
+  min-height: 48px;
+  border-radius: 0;
+  background: var(--ink);
+  color: var(--white);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+.auth-clerk-card .cl-formButtonPrimary:hover {
+  background: var(--aqua-dark);
+}
+.auth-clerk-card .cl-footer {
+  background: transparent;
+}
+.auth-clerk-card .cl-footerActionLink,
+.auth-clerk-card .cl-formFieldAction {
+  color: var(--aqua-dark);
+  font-family: inherit;
+}
+.auth-clerk-card .cl-dividerLine {
+  background: var(--line);
+}
+.auth-clerk-card .cl-dividerText {
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 10px;
+}
+.auth-clerk-card .cl-formResendCodeLink,
+.auth-clerk-card .cl-otpCodeField {
+  font-family: inherit;
+}
+.auth-clerk-card .cl-internal-b3fm6y {
+  font-family: inherit;
+}
+.auth-clerk-card .cl-userPreview {
+  border-radius: 0;
+}
+.auth-clerk-card .cl-formFieldErrorText,
+.auth-clerk-card .cl-alert {
+  font-family: inherit;
+  font-size: 11px;
+}
+.auth-preparation {
+  margin-top: 27px;
+  display: grid;
+  gap: 13px;
+  padding: 17px 18px;
+  border-left: 3px solid var(--aqua-dark);
+  background: rgba(114, 229, 206, 0.16);
+  color: var(--aqua-dark);
+  font-size: 12px;
+  line-height: 1.65;
+}
+.auth-preparation strong {
+  font-size: 13px;
+}
+.auth-retry {
+  justify-self: start;
+  border: 0;
+  background: none;
+  padding: 0;
+  color: var(--aqua-dark);
+  font-size: 11px;
+  font-weight: 800;
+}
+.auth-retry:hover {
+  text-decoration: underline;
+}
+.auth-provider-error {
+  border-left-color: #a44433;
+  background: rgba(245, 143, 121, 0.18);
+  color: #a44433;
+}
+.auth-provider-error .auth-retry {
+  color: #a44433;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `announcements` ADD `popup` boolean DEFAULT false NOT NULL;

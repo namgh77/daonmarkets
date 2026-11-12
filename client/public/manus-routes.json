@@ -1,0 +1,16 @@
+{
+  "routes": [
+    { "path": "/", "title": "Daonmarkets Home" },
+    { "path": "/help", "title": "Help and Service Guide" },
+    { "path": "/notices", "title": "Public Announcements" },
+    { "path": "/login", "title": "Member Login" },
+    { "path": "/forgot-password", "title": "Password Reset" },
+    { "path": "/signup", "title": "Invitation Signup" },
+    { "path": "/dashboard", "title": "Member Dashboard" },
+    { "path": "/member", "title": "Member Funds Requests" },
+    { "path": "/member/services", "title": "Member Services" },
+    { "path": "/admin", "title": "Operations Home" },
+    { "path": "/admin/finance", "title": "Finance Request Review" },
+    { "path": "/admin/invites", "title": "Invitation Control" }
+  ]
+}

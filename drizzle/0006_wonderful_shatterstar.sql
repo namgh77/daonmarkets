@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `inviteRequired` boolean DEFAULT false NOT NULL;

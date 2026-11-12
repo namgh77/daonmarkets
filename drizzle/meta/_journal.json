@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1788785580464,
+      "tag": "0000_initial_users",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1794278089401,
+      "tag": "0001_living_caretaker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1794279693234,
+      "tag": "0002_regular_deathbird",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1794280872189,
+      "tag": "0003_lean_miek",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1794323333884,
+      "tag": "0004_plain_venus",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1794360529309,
+      "tag": "0005_tiny_wild_pack",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1794360774561,
+      "tag": "0006_wonderful_shatterstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1794371055046,
+      "tag": "0007_known_angel",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": 5,
+      "when": 1794372642612,
+      "tag": "0008_long_madripoor",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": 5,
+      "when": 1794373000000,
+      "tag": "0009_invited_member_profile",
+      "breakpoints": true
+    }
+  ]
+}

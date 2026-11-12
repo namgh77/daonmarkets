@@ -1,0 +1,35 @@
+# Free validation instance only. Paid compute needs separate cost approval.
+# Database and verified Clerk application are supplied by the owner.
+services:
+  - type: web
+    name: daonmarkets-web
+    runtime: docker
+    plan: free
+    region: singapore
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: AUTH_PROVIDER
+        value: clerk
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: CLERK_ALLOWED_ORIGINS
+        sync: false
+      - key: EXTERNAL_DATABASE_URL
+        sync: false
+      - key: EXTERNAL_DATABASE_CA
+        sync: false
+      - key: PUBLIC_SITE_URL
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false

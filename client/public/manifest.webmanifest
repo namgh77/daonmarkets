@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "name": "Daonmarkets 회원 서비스",
+  "short_name": "Daonmarkets",
+  "description": "초대된 회원을 위한 보호된 Daonmarkets 회원 공간",
+  "start_url": "/login",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080d22",
+  "theme_color": "#080d22",
+  "orientation": "portrait-primary",
+  "lang": "ko-KR",
+  "categories": ["business", "finance"],
+  "icons": [
+    { "src": "/pwa-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/pwa-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
